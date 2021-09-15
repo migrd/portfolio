@@ -1,0 +1,31 @@
+/* bigshot one font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body,html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  overflow: hidden;
+}
+
+body{
+  background: transparent;
+  background-size:cover;
+  font-family: 'Poppins', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:600px;height:100%;}
+
+@media only screen and (max-width: 650px) {
+  body{
+    height: 75%;
+  }
+}
