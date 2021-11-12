@@ -216,7 +216,8 @@ h3{
 
 .card .work-content{
 	text-align: center;
-	padding: 10px 5px;
+	padding: 5px 5px;
+	height: 95px;
 	font-size: 1rem;
 	color: var(--main-fonts-color);
 	font-family: var(--main-font-family);
@@ -229,6 +230,7 @@ h3{
 
 .card .work-content:hover{
   color:#202020;
+  
 }
 
 .card:hover{
